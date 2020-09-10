@@ -1,5 +1,3 @@
-# Jean-Roch Masson
-
 Alias Jyaire.  
 J'ai 43 ans, je suis professeur des écoles et développeur.  
 _I'm 43 years old, I'm Primary School teacher, and developper._ 
