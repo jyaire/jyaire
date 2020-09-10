@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "jyaire"
+    }
+  },
+  "defaultProject": "jyaire",
+  "cli": {
+    "analytics": false
+  }
 }
