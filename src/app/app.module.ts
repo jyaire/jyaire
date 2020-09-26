@@ -5,13 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactLineComponent } from './contact-line/contact-line.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { RouterModule } from '@angular/router';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactLineComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    MenuComponent,
+    FooterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
