@@ -5,7 +5,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'services', component: ServicesComponent },
   { path: 'portfolio', component: PortfolioComponent }
 ];
