@@ -5,10 +5,13 @@ import { CreationComponent } from './creation/creation.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PresentationComponent } from './presentation/presentation.component';
 import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'presentation', component: PresentationComponent },
   { path: 'creation', component: CreationComponent },
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'services', component: ServicesComponent },
