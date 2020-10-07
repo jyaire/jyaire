@@ -3,14 +3,15 @@ h1 {
     font-size: 2rem;
 }
 
-a {
+.link-box {
+    width: 200px;
     color: white;
-}
-
-li {
     background-color: darkslategray;
     margin: 10px;
     padding: 5px;
+}
+
+li {
     list-style-type: none;
 }
 
