@@ -27,6 +27,7 @@ export class ContactComponent {
     const message = this.contactForm.value.message;
     console.log(name);
     console.log(message);
+    
   }
 
 }
