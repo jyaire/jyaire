@@ -16,6 +16,7 @@ export class PortfolioComponent implements OnInit {
       name: 'Classe Royale',
       description: 'Evaluation ludique des élèves de Primaire',
       link: 'http://jejoueenclasse.fr/classeroyale/',
+      image: 'classeroyale.png',
     },
     {
       id: 2,
@@ -28,6 +29,20 @@ export class PortfolioComponent implements OnInit {
       name: "Il faut que j'vous raconte",
       description: "Blog personnel",
       link: 'http://mapoupoule.free.fr',
+    },
+    {
+      id: 4,
+      name: "Les (bonnes) notes de JR",
+      description: "Partage de ressources pour enseignants en Primaire",
+      link: 'http://jejoueenclasse.fr/bonnesnotes/',
+      image: 'bonnesnotes.png',
+    },
+    {
+      id: 4,
+      name: "Rencontres chantantes",
+      description: "Ressources pour chanter à l'école",
+      link: 'http://doumdoumdoum.free.fr',
+      image: 'doumdoumdoum.png',
     },
   ]
 
