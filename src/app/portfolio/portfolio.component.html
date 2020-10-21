@@ -1,10 +1,15 @@
 <h2>Mes réalisations</h2>
 <p>Voici quelques-uns de mes projets réalisés</p>
 <div class="row">
-    <div *ngFor="let website of websites" class="col-6">
+    <div *ngFor="let website of websites" class="col-6 box-website">
         <h3 class="title">{{ website.name }}</h3>
         <p>{{ website.description }}</p>
         <img alt="JRM" src="./assets/images/{{ website.image }}" id="{{ website.name }}" class="thumbnail">
+        <p *ngIf = "website.link">
+            Lien : 
+            <a href="{{ website.link }}" title="{{ website.name }}" target="_blank">
+                {{ website.link }}
+            </a>
+        </p>
     </div>
 </div>
-

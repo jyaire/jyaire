@@ -1,9 +1,16 @@
-.title {
-    font-weight: 900;
-    font-size: 1rem;
-}
+.box-website {
 
-.thumbnail {
-    width: 350px;
-    height: auto;
+    padding-bottom: 10px;
+
+    .title {
+        font-weight: 900;
+        font-size: 1rem;
+    }
+    
+    .thumbnail {
+        width: 80%;
+        height: auto;
+        border: solid grey 1px;
+    }
+
 }
