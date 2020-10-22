@@ -1,4 +1,4 @@
-$main-color: #FF6600;
+@import '../var';
 
 .main {
     font-family: 'Barlow', sans-serif;
@@ -12,9 +12,4 @@ $main-color: #FF6600;
 
 .home {
     color: darkslategray;
-}
-
-.bold {
-    font-weight: 900;
-    color: $main-color;
 }
