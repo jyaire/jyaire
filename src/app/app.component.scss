@@ -1,13 +1,20 @@
+$main-color: #FF6600;
+
 .main {
     font-family: 'Barlow', sans-serif;
 }
 
 .menu {
-    background-color: #FF6600;
+    background-color: $main-color;
     color: white;
     min-height: 100vh;
 }
 
 .home {
     color: darkslategray;
+}
+
+.bold {
+    font-weight: 900;
+    color: $main-color;
 }

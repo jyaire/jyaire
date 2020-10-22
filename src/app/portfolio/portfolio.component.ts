@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       id: 2,
-      name: 'BiBip Mobile !',
+      name: 'BipBip Mobile !',
       description: "Récupération de téléphones mobiles sur la région Hauts de France",
       image: 'bipbip.png',
     },
