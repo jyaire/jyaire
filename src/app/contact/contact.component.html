@@ -5,19 +5,19 @@
 <form [formGroup] = "contactForm" (ngSubmit)="sendEmail()" class="row">
     <div class="col-12 col-md-4">
         <label>Nom : </label><br>
-        <input type="text" formControlName = "name" placeholder="Votre nom" required>
+        <input type="text" formControlName="name" placeholder="Votre nom" required>
     </div>
     <div class="col-12 col-md-4">
         <label>Email : </label><br>
-        <input type="email" formControlName = "email" placeholder="Adresse mail" required>
+        <input type="email" formControlName="email" placeholder="Adresse mail" required>
     </div>
     <div class="col-12 col-md-4">
         <label>Téléphone : </label><br>
-        <input type="text" formControlName = "phone" placeholder="N° de téléphone">
+        <input type="text" formControlName="phone" placeholder="N° de téléphone">
     </div>
     <div class="col-12 mt-2">
         <label>Message :</label><br>
-        <textarea formControlName = "message" rows="5" cols="100%" placeholder="Votre demande" required></textarea>
+        <textarea formControlName="message" rows="5" cols="100%" placeholder="Votre demande" required></textarea>
         <br><button type="submit" [disabled]="!contactForm.valid" class="btn btn-primary">Envoyer</button>
     </div>
 </form>

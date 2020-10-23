@@ -21,10 +21,13 @@ export class ContactComponent {
   }
 
   sendEmail() {
+  
     const name = this.contactForm.value.name;
     const email = this.contactForm.value.email;
     const phone = this.contactForm.value.phone;
     const message = this.contactForm.value.message;
+    const allInfo = 'Votre nom est ' + name + 'et votre email ' + email;
+    alert(allInfo);
     console.log(name);
     console.log(message);
   }
