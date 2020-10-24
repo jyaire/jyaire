@@ -1,6 +1,37 @@
 @import 'var.scss';
 
+a {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: $main-color;
+  }
+  
+  a:visited {
+    color: $main-color;
+  }
+  
+  a:focus {
+    background: $main-color;
+  }
+  
+  a:hover {  
+    font-weight: 700;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: $main-color;
+  }
+
 .boldColor {
     font-weight: 900;
-    color: $main-color;
+    //color: $main-color;
+}
+
+.italic-text {
+  font-style: italic;
 }
