@@ -13,10 +13,6 @@ a {
     color: $main-color;
   }
   
-  a:focus {
-    background: $main-color;
-  }
-  
   a:hover {  
     font-weight: 700;
     outline: none;
@@ -34,4 +30,9 @@ a {
 
 .italic-text {
   font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
 }

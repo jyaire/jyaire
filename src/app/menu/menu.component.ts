@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Jr } from '../jr';
 
 @Component({
   selector: 'app-menu',
@@ -6,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
+
+  moi:Jr = {
+    name : "Masson",
+    firstname: 'Jean-Roch',
+    birthdate: '08/03/1977',
+  }
 
   constructor() { }
 

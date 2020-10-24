@@ -7,7 +7,9 @@
 .menu {
     background-color: $main-color;
     color: white;
-    min-height: 100vh;
+    @media (min-width: 768px) {
+        min-height: 100vh;
+    }
 }
 
 .home {

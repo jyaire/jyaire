@@ -3,53 +3,50 @@
         <img alt="JRM" src="./assets/images/logoJR.png" id="logo">
     </div>
     <div class="col-9 text-center">
-        <h1>Jean-Roch<br>MASSON</h1>
-        <p class="subtitle">Développeur Web</p>
+        <h1>{{ moi.firstname }}<br>{{ moi.name | uppercase }}</h1>
     </div>
 </div>
-<div class="row">
-    <ul>
-        <li>
+<div class="row justify-content-center">
+    <div class="col-12">
+        <p class="subtitle text-center">Développeur Web</p>
+    </div>
+    <div class="col-12 text-center">
+        <div class="button-menu text-center">
             <a routerLink="home">
                 <div class="link-box" routerLinkActive="link-box-active">
                     Accueil
                 </div>
             </a>
-        </li>
-        <li>
+
             <a routerLink="presentation">
                 <div class="link-box" routerLinkActive="link-box-active">
                     Présentation
                 </div>
             </a>
-        </li>
-        <li>
+
             <a routerLink="creation">
                 <div routerLinkActive="link-box-active" class="link-box">
                     Création de sites
                 </div>
             </a>
-        </li>
-        <li>
+
             <a routerLink="portfolio">
                 <div routerLinkActive="link-box-active" class="link-box">
                     Réalisations
                 </div>
             </a>
-        </li>
-        <li>
+
             <a routerLink="services">
                 <div routerLinkActive="link-box-active" class="link-box">
                     Services
                 </div>
             </a>
-        </li>
-        <li>
+
             <a routerLink="contact">
                 <div routerLinkActive="link-box-active" class="link-box">
                     Contact et devis
                 </div>
             </a>
-        </li>
-    </ul>
+        </div>
+    </div>
 </div>

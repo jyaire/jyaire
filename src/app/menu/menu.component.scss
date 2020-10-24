@@ -1,6 +1,6 @@
 h1 {
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .subtitle {
@@ -8,11 +8,15 @@ h1 {
 }
 
 a:link {
-    text-decoration:none
+    text-decoration:none;
+}
+
+.button-menu {
+    align-content: center;
 }
 
 .link-box {
-    width: 200px;
+    width: 90%;
     color: white;
     background-color: darkslategray;
     margin: 10px;
@@ -24,11 +28,7 @@ a:link {
     color: black;
 }
 
-li {
-    list-style-type: none;
-}
-
 #logo {
-    height:60px;
+    height:50px;
     width: auto;
 }
