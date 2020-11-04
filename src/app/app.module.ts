@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ContactComponent } from './contact/contact.component';
 import { CreationComponent } from './creation/creation.component';
 import { PresentationComponent } from './presentation/presentation.component';
+import { AproposComponent } from './apropos/apropos.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PresentationComponent } from './presentation/presentation.component';
     ContactComponent,
     CreationComponent,
     PresentationComponent,
+    AproposComponent,
   ],
   imports: [
     BrowserModule,
