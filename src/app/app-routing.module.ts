@@ -7,6 +7,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { ServicesComponent } from './services/services.component';
+import { AproposComponent } from './apropos/apropos.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'apropos', component: AproposComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 
